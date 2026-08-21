@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (on случай сборки/скриптов)
+node_modules/
+npm-debug.log*
+
+# Temp / build artifacts
+*.tmp
+*.bak
+page-*.jpg
+*.pdf.bak
+
+# Secrets — never commit tokens or keys
+*.env
+.env.*
+*token*
+*secret*
+*.pem
+*.key
